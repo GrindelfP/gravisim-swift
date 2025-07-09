@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		504A84F12E1E91C800E8F7CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504A84DA2E1E91C700E8F7CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 504A84E12E1E91C700E8F7CA;
+			remoteInfo = "gravisim-swift";
+		};
+		504A84FB2E1E91C800E8F7CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504A84DA2E1E91C700E8F7CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 504A84E12E1E91C700E8F7CA;
+			remoteInfo = "gravisim-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		504A84E22E1E91C700E8F7CA /* gravisim-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gravisim-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		504A84F02E1E91C800E8F7CA /* gravisim-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gravisim-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		504A84FA2E1E91C800E8F7CA /* gravisim-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gravisim-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		504A84E42E1E91C700E8F7CA /* gravisim-swift */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "gravisim-swift";
+			sourceTree = "<group>";
+		};
+		504A84F32E1E91C800E8F7CA /* gravisim-swiftTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "gravisim-swiftTests";
+			sourceTree = "<group>";
+		};
+		504A84FD2E1E91C800E8F7CA /* gravisim-swiftUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "gravisim-swiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		504A84DF2E1E91C700E8F7CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504A84ED2E1E91C800E8F7CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504A84F72E1E91C800E8F7CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		504A84D92E1E91C700E8F7CA = {
+			isa = PBXGroup;
+			children = (
+				504A84E42E1E91C700E8F7CA /* gravisim-swift */,
+				504A84F32E1E91C800E8F7CA /* gravisim-swiftTests */,
+				504A84FD2E1E91C800E8F7CA /* gravisim-swiftUITests */,
+				504A84E32E1E91C700E8F7CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		504A84E32E1E91C700E8F7CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				504A84E22E1E91C700E8F7CA /* gravisim-swift.app */,
+				504A84F02E1E91C800E8F7CA /* gravisim-swiftTests.xctest */,
+				504A84FA2E1E91C800E8F7CA /* gravisim-swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		504A84E12E1E91C700E8F7CA /* gravisim-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504A85042E1E91C800E8F7CA /* Build configuration list for PBXNativeTarget "gravisim-swift" */;
+			buildPhases = (
+				504A84DE2E1E91C700E8F7CA /* Sources */,
+				504A84DF2E1E91C700E8F7CA /* Frameworks */,
+				504A84E02E1E91C700E8F7CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				504A84E42E1E91C700E8F7CA /* gravisim-swift */,
+			);
+			name = "gravisim-swift";
+			packageProductDependencies = (
+			);
+			productName = "gravisim-swift";
+			productReference = 504A84E22E1E91C700E8F7CA /* gravisim-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		504A84EF2E1E91C800E8F7CA /* gravisim-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504A85072E1E91C800E8F7CA /* Build configuration list for PBXNativeTarget "gravisim-swiftTests" */;
+			buildPhases = (
+				504A84EC2E1E91C800E8F7CA /* Sources */,
+				504A84ED2E1E91C800E8F7CA /* Frameworks */,
+				504A84EE2E1E91C800E8F7CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				504A84F22E1E91C800E8F7CA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				504A84F32E1E91C800E8F7CA /* gravisim-swiftTests */,
+			);
+			name = "gravisim-swiftTests";
+			packageProductDependencies = (
+			);
+			productName = "gravisim-swiftTests";
+			productReference = 504A84F02E1E91C800E8F7CA /* gravisim-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		504A84F92E1E91C800E8F7CA /* gravisim-swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504A850A2E1E91C800E8F7CA /* Build configuration list for PBXNativeTarget "gravisim-swiftUITests" */;
+			buildPhases = (
+				504A84F62E1E91C800E8F7CA /* Sources */,
+				504A84F72E1E91C800E8F7CA /* Frameworks */,
+				504A84F82E1E91C800E8F7CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				504A84FC2E1E91C800E8F7CA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				504A84FD2E1E91C800E8F7CA /* gravisim-swiftUITests */,
+			);
+			name = "gravisim-swiftUITests";
+			packageProductDependencies = (
+			);
+			productName = "gravisim-swiftUITests";
+			productReference = 504A84FA2E1E91C800E8F7CA /* gravisim-swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		504A84DA2E1E91C700E8F7CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					504A84E12E1E91C700E8F7CA = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					504A84EF2E1E91C800E8F7CA = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 504A84E12E1E91C700E8F7CA;
+					};
+					504A84F92E1E91C800E8F7CA = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 504A84E12E1E91C700E8F7CA;
+					};
+				};
+			};
+			buildConfigurationList = 504A84DD2E1E91C700E8F7CA /* Build configuration list for PBXProject "gravisim-swift" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 504A84D92E1E91C700E8F7CA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 504A84E32E1E91C700E8F7CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				504A84E12E1E91C700E8F7CA /* gravisim-swift */,
+				504A84EF2E1E91C800E8F7CA /* gravisim-swiftTests */,
+				504A84F92E1E91C800E8F7CA /* gravisim-swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		504A84E02E1E91C700E8F7CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504A84EE2E1E91C800E8F7CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504A84F82E1E91C800E8F7CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		504A84DE2E1E91C700E8F7CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504A84EC2E1E91C800E8F7CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504A84F62E1E91C800E8F7CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		504A84F22E1E91C800E8F7CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 504A84E12E1E91C700E8F7CA /* gravisim-swift */;
+			targetProxy = 504A84F12E1E91C800E8F7CA /* PBXContainerItemProxy */;
+		};
+		504A84FC2E1E91C800E8F7CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 504A84E12E1E91C700E8F7CA /* gravisim-swift */;
+			targetProxy = 504A84FB2E1E91C800E8F7CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		504A85022E1E91C800E8F7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		504A85032E1E91C800E8F7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		504A85052E1E91C800E8F7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "gravisim-swift/gravisim_swift.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "to.grindelf.gravisim-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		504A85062E1E91C800E8F7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "gravisim-swift/gravisim_swift.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "to.grindelf.gravisim-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		504A85082E1E91C800E8F7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "to.grindelf.gravisim-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gravisim-swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gravisim-swift";
+			};
+			name = Debug;
+		};
+		504A85092E1E91C800E8F7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "to.grindelf.gravisim-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gravisim-swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gravisim-swift";
+			};
+			name = Release;
+		};
+		504A850B2E1E91C800E8F7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "to.grindelf.gravisim-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "gravisim-swift";
+			};
+			name = Debug;
+		};
+		504A850C2E1E91C800E8F7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "to.grindelf.gravisim-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "gravisim-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		504A84DD2E1E91C700E8F7CA /* Build configuration list for PBXProject "gravisim-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504A85022E1E91C800E8F7CA /* Debug */,
+				504A85032E1E91C800E8F7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504A85042E1E91C800E8F7CA /* Build configuration list for PBXNativeTarget "gravisim-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504A85052E1E91C800E8F7CA /* Debug */,
+				504A85062E1E91C800E8F7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504A85072E1E91C800E8F7CA /* Build configuration list for PBXNativeTarget "gravisim-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504A85082E1E91C800E8F7CA /* Debug */,
+				504A85092E1E91C800E8F7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504A850A2E1E91C800E8F7CA /* Build configuration list for PBXNativeTarget "gravisim-swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504A850B2E1E91C800E8F7CA /* Debug */,
+				504A850C2E1E91C800E8F7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 504A84DA2E1E91C700E8F7CA /* Project object */;
+}
