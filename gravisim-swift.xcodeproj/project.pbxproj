@@ -35,16 +35,6 @@
 			path = "gravisim-swift";
 			sourceTree = "<group>";
 		};
-		504A84F32E1E91C800E8F7CA /* gravisim-swiftTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "gravisim-swiftTests";
-			sourceTree = "<group>";
-		};
-		504A84FD2E1E91C800E8F7CA /* gravisim-swiftUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "gravisim-swiftUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				504A84E42E1E91C700E8F7CA /* gravisim-swift */,
-				504A84F32E1E91C800E8F7CA /* gravisim-swiftTests */,
-				504A84FD2E1E91C800E8F7CA /* gravisim-swiftUITests */,
 				504A84E32E1E91C700E8F7CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				504A84F22E1E91C800E8F7CA /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				504A84F32E1E91C800E8F7CA /* gravisim-swiftTests */,
-			);
 			name = "gravisim-swiftTests";
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				504A84FC2E1E91C800E8F7CA /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				504A84FD2E1E91C800E8F7CA /* gravisim-swiftUITests */,
 			);
 			name = "gravisim-swiftUITests";
 			packageProductDependencies = (
