@@ -6,18 +6,13 @@
 //
 
 #include <metal_stdlib>
+#include "VertexOut.h"
 using namespace metal;
 
-// Фрагментный шейдер с маской круга для рендера точек как шаров
-fragment float4 fragment_main(float2 pointCoord [[point_coord]]) {
-    // pointCoord — координаты пикселя внутри точки (0..1 по x и y)
+fragment float4 fragment_main(VertexOut in [[stage_in]], float2 pointCoord [[point_coord]]) {
+    float2 center = float2(0.5, 0.5);
+    float dist = distance(pointCoord, center);
+    if (dist > 0.5) discard_fragment();
 
-    float2 center = float2(0.5, 0.5);            // Центр точки
-    float dist = distance(pointCoord, center);   // Расстояние от центра
-
-    if (dist > 0.5) {
-        discard_fragment(); // Отбрасываем пиксели вне круга (прозрачные)
-    }
-
-    return float4(1, 1, 1, 1); // Белый цвет для круга
+    return in.color; // Используем цвет из вершины
 }
